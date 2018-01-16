@@ -1,0 +1,9 @@
+Package: com.uprisecreations.blurrylaunch
+Name: BlurryLaunch
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Billy Ellis
+Author: Billy Ellis
+Section: Tweaks
