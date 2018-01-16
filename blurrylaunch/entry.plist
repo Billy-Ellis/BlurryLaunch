@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BlurryLaunch;
+	cell = PSLinkCell;
+	detail = BlurryLaunchListController;
+	icon = BlurryLaunch.png;
+	isController = 1;
+	label = BlurryLaunch;
+    };
+}

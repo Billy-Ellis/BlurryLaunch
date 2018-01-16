@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+<dict>
+<key>cell</key>
+<string>PSGroupCell</string>
+<key>footerCellClass</key>
+<string>BlurryLaunchCustomCell</string>
+</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.uprisecreations.blurrylaunchsettings</string>
+			<key>key</key>
+			<string>AwesomeSwitch1</string>
+			<key>label</key>
+			<string>Enable</string>
+<key>icon</key>
+<string>blurrylaunch.png</string>
+		</dict>
+<dict>
+<key>cell</key>
+<string>PSGroupCell</string>
+<key>label</key>
+<string>Settings</string>
+</dict>
+<dict>
+
+<key>key</key>
+<string>ThemeList</string>
+<key>cell</key>
+<string>PSLinkListCell</string>
+<key>label</key>
+<string>Blur Theme</string>
+<key>defaults</key>
+<string>com.uprisecreations.blurrylaunch</string>
+<key>detail</key>
+<string>PSListItemsController</string>
+<key>validTitles</key>
+<array>
+
+<string>Cloudy Blue</string>
+<string>Vibrant Green</string>
+<string>Smoke White</string>
+<string>Fuchsia</string>
+<string>Vermilion</string>
+<string>Gold Yellow</string>
+<string>Dusty</string>
+<string>Midnight</string>
+<string>Turquoise</string>
+
+
+</array>
+<key>validValues</key>
+<array>
+
+<integer>1</integer>
+<integer>2</integer>
+<integer>3</integer>
+<integer>4</integer>
+<integer>5</integer>
+<integer>6</integer>
+<integer>7</integer>
+<integer>8</integer>
+<integer>9</integer>
+
+</array>
+</dict>
+<dict>
+
+<key>key</key>
+<string>StrengthList</string>
+<key>cell</key>
+<string>PSLinkListCell</string>
+<key>label</key>
+<string>Blur strength</string>
+<key>defaults</key>
+<string>com.uprisecreations.blurrylaunch</string>
+<key>detail</key>
+<string>PSListItemsController</string>
+<key>validTitles</key>
+<array>
+
+<string>Low</string>
+<string>Medium</string>
+<string>Strong</string>
+
+
+
+</array>
+<key>validValues</key>
+<array>
+
+<integer>1</integer>
+<integer>2</integer>
+<integer>3</integer>
+
+
+</array>
+</dict>
+
+<dict>
+
+<key>key</key>
+<string>DurationList</string>
+<key>cell</key>
+<string>PSLinkListCell</string>
+<key>label</key>
+<string>Blur Duration</string>
+<key>defaults</key>
+<string>com.uprisecreations.blurrylaunch</string>
+<key>detail</key>
+<string>PSListItemsController</string>
+<key>validTitles</key>
+<array>
+
+<string>0.3</string>
+<string>0.5</string>
+<string>1.0</string>
+
+
+
+</array>
+<key>validValues</key>
+<array>
+
+<integer>1</integer>
+<integer>2</integer>
+<integer>3</integer>
+
+
+</array>
+</dict>
+
+
+<dict>
+<key>cell</key>
+<string>PSGroupCell</string>
+<key>label</key>
+<string>Contact</string>
+</dict>
+<dict>
+<key>cell</key>
+<string>PSButtonCell</string>
+<key>action</key>
+<string>twittermethod</string>
+<key>label</key>
+<string>Billy Ellis @bellis1000</string>
+<key>icon</key>
+<string>Twitter.png</string>
+</dict>
+<dict>
+<key>cell</key>
+<string>PSButtonCell</string>
+<key>action</key>
+<string>youtubemethod</string>
+<key>label</key>
+<string>Billy Ellis</string>
+<key>icon</key>
+<string>YouTube.png</string>
+</dict>
+<dict>
+<key>cell</key>
+<string>PSGroupCell</string>
+</dict>
+<dict>
+<key>cell</key>
+<string>PSButtonCell</string>
+<key>action</key>
+<string>help</string>
+<key>label</key>
+<string>Help</string>
+</dict>
+<dict>
+<key>cell</key>
+<string>PSGroupCell</string>
+<key>label</key>
+<string>Copyright (c) billy Ellis 2015</string>
+</dict>
+ </array>
+	<key>title</key>
+	<string>BlurryLaunch</string>
+</dict>
+</plist>
